@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Performance Evaluation Form</title>
+</head>
+<body>
+    <h1>EMPLOYEES PERFORMANCE EVALUATION</h1>
+    <form method="POST" action="/dashboard/performance_evaluation">
+        <label for="evaluator_name">Evaluator's Name:</label>
+        <input type="text" id="evaluator_name" name="evaluator_name" required><br><br>
+
+        <label for="evaluated_name">Employee's Name:</label>
+        <input type="text" id="evaluated_name" name="evaluated_name" required><br><br>
+
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status" required><br><br>
+
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" required><br><br>
+
+        <h2>Instructions</h2>
+        <p>Using the following rating scale, please circle the number that best reflects your rating of your PSSRs performance during the past year.</p>
+
+        <h2>Rating Scale</h2>
+        <table>
+            <tr>
+                <td>0 - Did not observe doing task.</td>
+                <td>3 - Fully Achieved Expected Results.</td>
+                <td>1 - Did not achieve results.</td>
+                <td>4 - Achieved More Than Expected Results.</td>
+                <td>2 - Partially Achieved Expected Results.</td>
+                <td>5 - Exceptional Achievement.</td>
+            </tr>
+        </table>
+
+        <h2>MAJOR TASKS</h2>
+        <label for="task1">Obtain satisfactory sales volume in accordance with established budgeted goals:</label>
+        <input type="number" id="task1" name="q1" min="0" max="5" required><br><br>
+
+        <label for="task2">Make regular, complete, and effective sales visits to all his clients in the territory:</label>
+        <input type="number" id="task2" name="q2" min="0" max="5" required><br><br>
+
+        <label for="task3">Maintains a healthy and sound Aged Receivable by regularly collecting payments from customers:</label>
+        <input type="number" id="task3" name="q3" min="0" max="5" required><br><br>
+
+        <label for="task4">Routinely cover/service all potential customers in the territory:</label>
+        <input type="number" id="task4" name="q4" min="0" max="5" required><br><br>
+
+        <label for="task5">Routinely promote company products to all current and prospect clients in the territory:</label>
+        <input type="number" id="task5" name="q5" min="0" max="5" required><br><br>
+
+        <label for="task6">Be highly knowledgeable and up-to-date on disease state information, product information:</label>
+        <input type="number" id="task6" name="q6" min="0" max="5" required><br><br>
+
+        <label for="task7">Manages all aspects of the territory:</label>
+        <input type="number" id="task7" name="q7" min="0" max="5" required><br><br>
+
+        <label for="task8">Insure the proper care and use of all assigned company property:</label>
+        <input type="number" id="task8" name="q8" min="0" max="5" required><br><br>
+
+        <h2>TOTAL</h2>
+        <input type="number" id="total" name="total" ><br><br>
+
+        <h2>OTHER TASKS</h2>
+        <label for="other_task1">Deal with complaints from customers and coordinates such complaints to appropriate authority:</label>
+        <input type="number" id="other_task1" name="q9" min="0" max="5" required><br><br>
+
+        <label for="other_task2">Discover and handle concerns from customers:</label>
+        <input type="number" id="other_task2" name="q10" min="0" max="5" required><br><br>
+
+        <label for="other_task3">Track client orders and negotiates purchase orders and pending orders:</label>
+        <input type="number" id="other_task3" name="q11" min="0" max="5" required><br><br>
+
+        <label for="other_task4">Arrange a number of status reports (activities, closings, follow-up and adherence to goals):</label>
+        <input type="number" id="other_task4" name="q12" min="0" max="5" required><br><br>
+
+        <label for="other_task5">Make action plans and schedules to discover certain goals and to make a list of necessary contacts:</label>
+        <input type="number" id="other_task5" name="q13" min="0" max="5" required><br><br>
+
+        <label for="other_task6">Follow up on new leads and referrals stemming from field activity:</label>
+        <input type="number" id="other_task6" name="q14" min="0" max="5" required><br><br>
+
+        <label for="other_task7">Discover sales prospects and contact them with other accounts as assigned:</label>
+        <input type="number" id="other_task7" name="q15" min="0" max="5" required><br><br>
+
+        <label for="other_task8">Develop planning of the coverage to make preparations of presentations, proposals, and sales contracts:</label>
+        <input type="number" id="other_task8" name="q16" min="0" max="5" required><br><br>
+
+        <label for="other_task9">Establish and maintain materials relating to sales and knowledge of current products:</label>
+        <input type="number" id="other_task9" name="q17" min="0" max="5" required><br><br>
+
+        <label for="other_task10">Develop and maintain relationships with current customers and potential customers as well:</label>
+        <input type="number" id="other_task10" name="q18" min="0" max="5" required><br><br>
+
+        <label for="other_task11">Make preparations of paperwork to put services of the contract into practice and maintain them:</label>
+        <input type="number" id="other_task11" name="q19" min="0" max="5" required><br><br>
+
+        <label for="other_task12">Take part in events to market the products such as seminars, trade shows, and telemarketing events:</label>
+        <input type="number" id="other_task12" name="q20" min="0" max="5" required><br><br>
+
+        <label for="other_task13">Follow-up for collection of payments:</label>
+        <input type="number" id="other_task13" name="q21" min="0" max="5" required><br><br>
+
+        <label for="other_task14">Arrange schedules on shipping and make delivery of merchandise as well as services:</label>
+        <input type="number" id="other_task14" name="q22" min="0" max="5" required><br><br>
+
+        <label for="other_task15">Guide and manage other company employees to achieve the work required to sell out all the products and services:</label>
+        <input type="number" id="other_task15" name="q23" min="0" max="5" required><br><br>
+
+        <label for="other_task16">Establish and deploy special sales activities to reduce products in stock:</label>
+        <input type="number" id="other_task16" name="q24" min="0" max="5" required><br><br>
+
+        <label for="other_task17">Help the company implement its marketing plans as required:</label>
+        <input type="number" id="other_task17" name="q25" min="0" max="5" required><br><br>
+
+        <label for="other_task18">Fulfill other duties and responsibilities as assigned:</label>
+        <input type="number" id="other_task18" name="q26" min="0" max="5" required><br><br>
+
+        <h2>OTHER TOTAL</h2>
+        <input type="number" id="other_total" name="other_total" ><br><br>
+
+        <button type="submit">Submit Evaluation</button>
+</form>
+<script>
+    function calculateTotal(category) {
+        const taskScores = Array.from(document.querySelectorAll(`input[name^="${category}"]`)).map(input => parseInt(input.value));
+        const totalField = document.getElementById(`${category}_total`);
+        const totalScore = taskScores.reduce((acc, score) => acc + score, 0);
+        totalField.value = totalScore;
+    }
+
+    // Attach event listeners to input fields for major tasks and other tasks
+    const majorTaskInputs = document.querySelectorAll('input[name^="q"]');
+    const otherTaskInputs = document.querySelectorAll('input[name^="other_task"]');
+
+    majorTaskInputs.forEach(input => {
+        input.addEventListener('input', () => calculateTotal('total'));
+    });
+
+    otherTaskInputs.forEach(input => {
+        input.addEventListener('input', () => calculateTotal('other_total'));
+    });
+</script>
+
+</body>
+</html>
